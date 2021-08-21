@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # get ig headers
     headers = get_headers()
 
-    tag_name = 'taipei'
+    tag_name = env['tag_name']
     api_url  = 'https://www.instagram.com/explore/tags/%s/?__a=1'%tag_name
 
     # request get with header
